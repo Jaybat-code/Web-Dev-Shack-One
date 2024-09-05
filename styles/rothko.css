@@ -7,4 +7,52 @@ h1{
     font-size: 2.5vw;
     margin-top: 5px;
     padding:0px;
+    color:rgb(231, 185, 185);
 }
+.frame{
+    border: 50px solid rgb(68, 37, 8);
+    width:500px;
+    height:700px;
+    margin:auto;
+    padding:50px;
+    transform: rotate(4deg);
+}
+.canvas{
+    background-color: blueviolet;
+    width:500px;
+    height:700px;
+    filter:blur(5px);
+    box-shadow: 0 0 20px 5px cyan;
+    overflow: hidden;
+}
+.first{
+    background-color: rgb(0, 0, 0);
+    margin:20px auto;
+    width:90%;
+    height:20%;
+    filter:blur(5px);
+    transform: rotate(-2deg);
+    box-shadow: 0 0 40px 2px rgb(1, 24, 230);
+    margin-bottom: 20px;
+    border-radius:13px;
+}
+.second{
+    background-color:rgb(136, 185, 144);
+    width:90%;
+    height:30%;
+    margin:50px auto;
+    transform: rotate(4deg);
+    box-shadow: 2px 2px 9px 3px rgb(77, 4, 38);
+    border-radius: 42px;
+}
+.third{
+    background-color: rgba(243, 247, 3, 0.808);
+    width:40%;
+    height:20%;
+    margin:30px auto 5px;
+    transform:rotate(75deg);
+    border-radius: 1000px;
+    box-shadow: 0 0 100px 33px rgb(202, 190, 121);
+    border:5px double black
+}
+
