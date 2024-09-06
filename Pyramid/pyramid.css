@@ -1,0 +1,101 @@
+*{
+    box-sizing: border-box;
+}
+html{
+    font-size: 16px;
+}
+body{
+    background:linear-gradient(.25turn,rgb(237, 213, 240),rgb(121, 115, 128));
+    margin:0;
+    padding:0;
+    font-family: monospace;
+}
+.nav{
+    width:100vw;
+    height:75px;
+    background-color: rgb(104, 134, 168);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    overflow: hidden;
+}
+#currentnav{
+    background-color: brown;
+    border:2px solid black
+}
+.navitem{
+    margin:auto 0px;
+    background-color: chocolate;
+    padding:20px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    width:15%;
+    text-align: center;
+    font-size: larger;
+    color: black;
+}
+.navitem:hover{
+    background-color: brown;
+    border:5px solid black;
+}
+.navitem:active{
+    background-color: white;
+}
+.navitem:visited{
+    color:black
+}
+.title{
+    text-align: center;
+    margin-top: 5px;
+    font-weight: 2000;
+}
+.form-space{
+    border:10px solid black;
+    width:400px;
+    height:19vh;
+    margin:auto;
+    display: flex;
+    justify-content:center;
+    align-items: center;
+}
+.pyramid-space{
+    margin:10px auto;
+    border: 10px solid black;
+    width:800px;
+    height: 800px;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+fieldset{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+input{
+    background-color: black;
+    width:80%;
+    height:40px;
+    font-size: large;
+    border:1px solid red;
+    color:rgb(214, 230, 184);
+    font-family: monospace;
+}
+button{
+    background-color:rgb(98, 175, 98);
+    border: 1px solid black;
+    width:30%;
+    height:25px;
+    margin:0 20px;
+}
+button:hover{
+    background-color:rgb(78, 155, 78) ;
+}
+#reset{
+    background-color: red;
+}
+#reset:hover{
+    background-color: pink;
+}
+#pyramid{
+    text-shadow: 0 0 22px rgb(23, 174, 212);
+}

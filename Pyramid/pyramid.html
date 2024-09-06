@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pyramid Generator</title>
+    <link rel="stylesheet" href="pyramid.css">
+</head>
+<body>
+    <div class="nav">
+        <a class="navitem"  href="../Rothko/rothko.html" >Rothko Painting</a>
+        <a  class="navitem" href="../Gallery/gallery.html">Photo Gallery</a>
+        <a class="navitem" href="../Label/label.html">Nutrition Label</a>
+        <a  class="navitem" id="currentnav" href="../Pyramid/pyramid.html">Pyramid</a>
+        <a class="navitem" href="./tribute.html">Tribute Page</a>
+    </div>
+
+    <h1 class="title">JavaScript Pyramid Generator</h1>
+    <div class="form-space">
+        <form>
+            <fieldset>
+                <legend>Please Input The Pyramid Character</legend>
+                <input id="char" type="text"  required placeholder="Enter A Character">
+            </fieldset>
+            <fieldset>
+                <legend>Please Input The Pyramid Height</legend>
+                <input id="height" type="number" min="1" required placeholder="Enter Row Number">
+            </fieldset>
+            <fieldset>
+                <legend>Lock In Your Values</legend>
+            <button value="submit" id="submit">Submit</button><button id="reset">Reset</button>
+            </fieldset>
+        </form>
+    </div>
+    <div class="pyramid-space">
+        
+        <p id="pyramid">
+            Lock in a value<br> to use as your<br>Pyramid Element
+        </p>
+    </div>
+    <script src="app.js"></script>
+</body>
+</html>
