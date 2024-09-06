@@ -1,3 +1,6 @@
+*{
+    box-sizing: border-box;
+}
 body{
     background:linear-gradient(.25turn,rgb(130, 193, 218),rgb(203, 238, 108));
     margin:0;
@@ -46,4 +49,28 @@ body{
 h1{
     color:white;
     text-align:center;
+}
+.container{
+    display:flex;
+    flex-direction: row-reverse;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap:50px;
+    max-width: 1400px;
+    margin:0 auto;
+    padding:50px 10px;
+    
+}
+.container img{
+    width:100%;
+    max-width: 350px;
+    height:300px;
+    object-fit: cover;
+    border-radius: 50px;
+}
+img:hover{
+    height:310px;
+    border:5px solid brown;
+    opacity:.75
 }
